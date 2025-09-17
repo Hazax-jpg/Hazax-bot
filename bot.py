@@ -1,7 +1,7 @@
-from telegram import Update
+lfrom telegram import Update
 from telegram.ext import Application, CommandHandler, ContextTypes
 
-TOKEN = os.getenv("8486763392:AAGpT0tanCSku1a1eDcWTnPEdue1RyJbF8c")
+TOKEN = os.getenv("")
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text("✅ Bot Hazax sudah aktif!")
